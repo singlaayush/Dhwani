@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e44e56"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></FrameLayout>
+
+    <ImageButton
+        android:id="@+id/detection"
+        android:layout_width="350dp"
+        android:layout_height="219dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:backgroundTint="#fafafa"
+        app:srcCompat="@drawable/deton" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></FrameLayout>
+
+    <ImageButton
+        android:id="@+id/training"
+        android:layout_width="350dp"
+        android:layout_height="219dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:backgroundTint="#fafafa"
+        app:srcCompat="@drawable/train" />
+
+</LinearLayout>
